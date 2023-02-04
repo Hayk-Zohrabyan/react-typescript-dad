@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  min-height: 100%;
+}
+
+.draggableBlock {
+  overflow: hidden;
+  clear: both;
+  flex: 0.5;
+}
+
+.boardBlock {
+  border-left: 1px dashed gray;
+  flex: 1.5;
+}
